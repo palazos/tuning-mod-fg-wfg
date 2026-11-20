@@ -1,0 +1,14 @@
+{
+  "moduleId": "fg-wfg",
+  "version": "0.1.0",
+  "minProductVersion": 23,
+  "displayName": "WFG Frame Generation",
+  "description": "Winlator / DIS frame generation engine.",
+  "engineSlot": "frameGen",
+  "requires": [],
+  "conflicts": ["fg-lsfg", "fg-tuning"],
+  "provides": ["frame-gen-wfg"],
+  "uiContributions": [],
+  "dex": [],
+  "nativeLibs": ["libfg_wfg.so"]
+}
