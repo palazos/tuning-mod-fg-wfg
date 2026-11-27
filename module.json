@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "minProductVersion": 23,
   "displayName": "WFG Frame Generation",
-  "description": "Winlator / DIS frame generation engine.",
+  "description": "WFG frame generation. After you install it, choose WFG in the in-game frame generation menu and turn it on there. It generates extra frames from the frames the game already drew. Mode, multiplier, and quality are in the sidebar. It is a separate engine from Tuning FG and LSFG: run one of them at a time.",
   "engineSlot": "frameGen",
   "requires": [],
-  "conflicts": ["fg-lsfg", "fg-tuning"],
-  "provides": ["frame-gen-wfg"],
+  "conflicts": [
+    "fg-lsfg",
+    "fg-tuning"
+  ],
+  "provides": [
+    "frame-gen-wfg"
+  ],
   "uiContributions": [],
   "dex": [],
-  "nativeLibs": ["libfg_wfg.so"]
+  "nativeLibs": [
+    "libfg_wfg.so"
+  ]
 }
